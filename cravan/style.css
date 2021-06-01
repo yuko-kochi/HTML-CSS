@@ -2,12 +2,34 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  color: #6c6c6c;
+}
+
+a{
+  text-decoration: none;
 }
 
 header{
-  width: 0;
-  padding: 0;
-  box-sizing: border-box;
+  width: 90%;
+  padding: 15px 0;
+  margin: 0 auto;
+  text-align: center;
+}
+
+header.heading{
+  font-size: 32px;
+}
+
+.nav-list{
+  text-align: center;
+  padding: 10px 0;
+  margin: 0 auto;
+}
+
+.nav-list-item{
+  list-style: none;
+  display: inline-block;
+  margin: 0 20px;
 }
 
 .main-visual{
@@ -40,4 +62,11 @@ margin: 0 auto;
 footer{
   width: 100%;
   height: 120px;
+  text-align: center;
+  line-height: 120px;
+  background-color: #848282;
+}
+
+.footer-text{
+  color: #fff;
 }
