@@ -1,0 +1,29 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-visual{
+  width: 100%;
+  height: 400px;
+  background-image: url(chapter7_exercise/img/mv.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.main-visual-text{
+  padding: 20px;
+}
+
+main{
+  width: 840px;
+  margin: 50px auto;
+}
+
+.blog-box{
+  margin-bottom: 30px;
+  padding-bottom: 30px;
+  border-bottom: 1px solid #d1d1d1;
+}
+
